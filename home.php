@@ -19,10 +19,12 @@ function is_logged() {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mtmp</title>
 
+
 </head>
 <body>
 <h1>
         Anúncios
+        
     </h1>
     <?php if(is_logged()):?> 
 <?php
@@ -48,12 +50,14 @@ $data = $stmt->fetchAll();
         <?php endforeach ?>
     </table>
    
-<!--
+    <!--
     <a href="logout.php">sair</a>
     <a href="livros/index.php">Ver meus Anúncios </a>
      -->
 
+
     <?php endif ?>
+    
 
     <head>
     <meta charset="UTF-14">
@@ -121,7 +125,7 @@ $data = $stmt->fetchAll();
 
         <li><a href="#">Duvidas</a></li>
 
-        <li><a href="./logout.php">Sairrr</a></li>
+        <li><a href="./logout.php">Sair</a></li>
 
         <li><a href="#">Entrar</a></li>
 
@@ -129,7 +133,41 @@ $data = $stmt->fetchAll();
 
 
     </ul>
+
+
+
+    <html lang="en">
+
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>E-commerce Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="https://kit.fontawesome.com/59feaf50a6.js" crossorigin="anonymous"></script>
+   
+    </head>
+
+<body>
+    
+            <div class="col-4">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYUX5y6xLq-iZV6w1XbcY1SJRUc_J_9PlHpDuBrE52GQatbPnQa5AiWK4GUYT3X63cnxSd978XUg&usqp=CAc" alt="" />
+                <li><a href="descricao.php">Black and Grey tshirt</a></li>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>Rs.12990</p>
+            </div>
+
+
+
+</body>
     </header>
+
 
 
 
